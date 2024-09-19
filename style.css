@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(66, 202, 112);
+}
+
+.logo{
+    visibility: visible;
+}
+.container {
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 30px;
+}
+
+div img {
+    width: 150px;
+    height: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.email {
+    margin: 5px 0;
+    margin-bottom: 20px;
+}
+.password {
+    margin: 5px 0;
+}
+input {
+    width: 340px;
+    height: 35px;
+    border: 1px solid rgb(100, 197, 100);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.btn {
+    width: 340px;
+    height: 35px;
+    border: 1px solid rgb(100, 197, 100);
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(106, 221, 144);
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+opacity: 1;
+}
+
+
+div h3 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.lorem {
+    margin: 10px 0;
+    color: red;
+}
